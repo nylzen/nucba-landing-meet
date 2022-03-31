@@ -1,5 +1,5 @@
 # nucba-landing
-Live coding para las meet de Nucba, donde vimos como maquetar una Landing Page Responsive Mobile First.
+Live coding para la meet de Nucba, donde vimos como maquetar una Landing Page Responsive Mobile First.
 
 ## Demo
-url .....
+https://nucba-landing-meet.vercel.app/
