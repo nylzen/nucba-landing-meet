@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nucba Landing</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="desktop.css" />
   </head>
   <body>
     <header>
+      <!--  -->
       <nav>
         <ul class="menu">
           <li class="logo">
@@ -31,6 +37,7 @@
           </div>
         </ul>
       </nav>
+      <!--  -->
     </header>
     <main>
       <!-- Seccion numero 1 que es el hero -->
@@ -43,7 +50,12 @@
           </p>
           <button type="button">Probar ahora</button>
         </div>
-        <img src="./img/screens.png" alt="screens" class="hero__bg" />
+        <img src="./img/screens.png" alt="screens" class="hero__bg mobile" />
+        <img
+          src="./img/screens-desk.png"
+          alt="screens"
+          class="hero__bg desktop"
+        />
       </section>
       <!-- Seccion numero 2 -->
       <section class="product">
@@ -59,12 +71,17 @@
             <img
               src="./img/chat-bot.png"
               alt="chatbot"
-              class="product__image--chat"
+              class="product__image--chat mobile"
             />
             <img
               src="./img/line-chart-1.png"
               alt="line-chart"
               class="product__image--line"
+            />
+            <img
+              src="./img/chatbot-desk.png"
+              alt=""
+              class="product__image--chat desktop"
             />
           </figure>
           <div class="container__text__block">
